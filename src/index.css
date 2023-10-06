@@ -2,25 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    box-sizing: border-box;
-    border: 0px solid rgb(57, 54, 54);
+* {
+  box-sizing: border-box;
+  border: 0px solid rgb(57, 54, 54);
 }
 
 #root {
-    margin: 0;
-    padding: 0;
-    /* overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden;
     overflow-y: hidden; */
 }
 :root {
-    --color: #118bee;
-    --hover-brightness: 1.2;
+  --color: #118bee;
+  --hover-brightness: 1.2;
 }
 h1 {
-    color: var(--color);
+  color: var(--color);
 }
 h1:active {
-    /* Darken on click */
-    filter: brightness(var(--hover-brightness));
+  /* Darken on click */
+  filter: brightness(var(--hover-brightness));
 }
