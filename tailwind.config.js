@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gurkha-logo': "url('./assets/logo.png')",
-        
+        'gurkha-logo': "url('./src/assets/logo.png')",
       }
     },
   },

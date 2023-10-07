@@ -24,3 +24,113 @@ h1:active {
   /* Darken on click */
   filter: brightness(var(--hover-brightness));
 }
+
+/* Navbar.css 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 20px;
+  color: white;
+}
+
+.open .menu-icon i {
+  opacity: 0;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.table-of-contents {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  border-radius: 10px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+}
+
+.open .table-of-contents {
+  transform: translateX(0);
+}
+
+.table-of-contents ul {
+  padding: 0;
+  margin: 0;
+}
+
+.table-of-contents li {
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.open .table-of-contents li {
+  opacity: 1;
+}
+
+.table-of-contents li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-button {
+  margin-right: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(to left, #ff0000, #0000ff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+  background: linear-gradient(to right, #ff0055, #0055ff);
+}
+
+.menu-button:focus {
+  outline: none;
+}
+*/
+.table-of-contents {
+  list-style-type: none;
+  padding: 5px;
+  position: absolute;
+  top: 64%;
+  left: 0;
+  background: linear-gradient(to right, #ff0000, #0000ff);
+  transform: translateX(2%);
+}
+
+.table-of-contents li {
+  padding: 10px 30px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.table-of-contents li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
