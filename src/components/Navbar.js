@@ -2,17 +2,7 @@ import React, {useState} from 'react'
 import logo from '../assets/logo.png'
 
 function Navbar() {
-    // return (
-    //     <div className='flex flex-row flex-wrap justify-center items-center min-h-fit w-screen bg-transparent fixed top-0  '>
-    //          <i className=" flex-none fa fa-bars w-40 shrink-0 text-center text-3xl text-white opacity-35 bg-gradient-to-r via-red-700 from-blue-800 border-radius-20 rounded-t-full rounded-b-full "></i>
-    //         <div className=' flex-1 w-auto  shrink-0 basis-1/5 flex justify-center'>
-    //             <img src={logo} alt="Logo" className='h-36 object-contain rounded-full ' />
-    //         </div>
-    //         <button className='h-9 w-40 p-0.5 text-md text-white bg-gradient-to-l via-red-700 from-blue-800 rounded-t-full rounded-b-full' >SignUp/ LogIn </button>
-             
-    //     </div>
-    // )
-
+    
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
