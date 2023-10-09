@@ -5,7 +5,6 @@ function Main() {
     return (
        <div className='bg-blue-300 w-full'>
         <img src={pic1} alt='Trophy celebrating' className='w-screen'/>
-
        </div> 
     )
 }
